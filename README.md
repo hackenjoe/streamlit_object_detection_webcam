@@ -1,0 +1,2 @@
+In this project, multiple object classifications can be performed in real-time by using a connected webcam and Streamlit API. Just start the app with the command `streamlit run app.py` and use a webcam.
+Currently up to **90** different objects can be detected simultaneously. Since the main goal here was to support low-computational devices, a small pre-trained [MobileDet](https://arxiv.org/abs/2004.14525) network was used.
